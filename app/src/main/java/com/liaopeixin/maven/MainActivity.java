@@ -1,12 +1,11 @@
 package com.liaopeixin.maven;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.liaopeixin.lib_utils.ToastUtils;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,7 +19,8 @@ public class MainActivity extends AppCompatActivity {
         tvContent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ToastUtils.showShortToast(MainActivity.this, "这个方法来自lib_utils库");
+//                ToastUtils.showShortToast(MainActivity.this, "这个方法来自lib_utils库");
+                startActivity(new Intent(MainActivity.this, TestMvvmActivity.class));
             }
         });
     }

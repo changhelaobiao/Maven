@@ -15,3 +15,9 @@ dependencyResolutionManagement {
 rootProject.name = "Maven"
 include ':app'
 include ':lib_utils'
+include ':lib_widget'
+include ':lib_image'
+include ':lib_network'
+include ':lib_baseui'
+include ':lib_mvvm'
+include ':lib_base'

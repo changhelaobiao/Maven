@@ -12,7 +12,13 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/lib_base" />
+            <option value="$PROJECT_DIR$/lib_baseui" />
+            <option value="$PROJECT_DIR$/lib_image" />
+            <option value="$PROJECT_DIR$/lib_mvvm" />
+            <option value="$PROJECT_DIR$/lib_network" />
             <option value="$PROJECT_DIR$/lib_utils" />
+            <option value="$PROJECT_DIR$/lib_widget" />
           </set>
         </option>
       </GradleProjectSettings>
