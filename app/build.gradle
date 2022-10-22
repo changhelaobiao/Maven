@@ -18,7 +18,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -43,6 +43,8 @@ dependencies {
     implementation "androidx.core:core-ktx:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
-    api project(':lib_utils')
-    api project(':lib_mvvm')
+    implementation project(':lib_base')
+    implementation project(':lib_utils')
+    implementation project(':lib_mvvm')
+    implementation project(':lib_network')
 }

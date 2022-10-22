@@ -44,6 +44,5 @@ dependencies {
     implementation "androidx.core:core-ktx:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
-
-    api project(':lib_base')
+    compileOnly project(':lib_base')
 }

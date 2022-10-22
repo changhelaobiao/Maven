@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 //                ToastUtils.showShortToast(MainActivity.this, "这个方法来自lib_utils库");
-                startActivity(new Intent(MainActivity.this, TestMvvmActivity.class));
+                startActivity(new Intent(MainActivity.this, TestNetworkActivity.class));
             }
         });
     }
